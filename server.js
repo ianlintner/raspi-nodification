@@ -4,6 +4,10 @@
 var yaml = require("js-yaml");
 var fs = require('fs');
 var config = yaml.safeLoad(fs.readFileSync("./config/app.yml", 'utf8'));
-var github = require('github-api');
+
+setInterval(function () {
+  i++;
+
+}, 2000);
 
 
