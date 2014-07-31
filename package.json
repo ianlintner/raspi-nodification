@@ -1,0 +1,34 @@
+{
+  "name": "raspi-nodification",
+  "version": "0.0.1",
+  "description": "Raspberry pi node notifications",
+  "main": "server.js",
+  "dependencies": {
+    "git": "~0.1.5",
+    "xmlhttprequest": "~1.6.0",
+    "node-yaml-config": "~0.0.2",
+    "underscore": "~1.6.0",
+    "js-yaml": "~3.1.0",
+    "github-api": "~0.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ianlintner/raspi-nodification.git"
+  },
+  "keywords": [
+    "Raspberry",
+    "pi",
+    "notification"
+  ],
+  "author": "Ian Lintner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianlintner/raspi-nodification/issues"
+  },
+  "homepage": "https://github.com/ianlintner/raspi-nodification"
+}
